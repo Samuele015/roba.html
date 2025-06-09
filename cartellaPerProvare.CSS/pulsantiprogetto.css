@@ -1,0 +1,143 @@
+.pulsante-Richiedi-ora {
+    background-color: rgb(0, 0, 0);
+    color :rgb(255, 255, 255);
+    border: none;
+    width: 115px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+        }
+    
+        .pulsante-Aggiungi-al-Carrello {
+    background-color: rgb(248, 221, 84);
+    color: black;
+    border: none;
+    border-radius: 100px;
+    width:220px;
+    height: 40px;
+    cursor: pointer;
+        }
+        .pulsante-Aggiungi-al-Carrello:hover {
+    opacity: 0.9;        
+        }   
+        .pulsante-Aggiungi-al-Carrello:active {        
+    filter: brightness(80%);
+        }
+        .pulsante-Aggiungi-al-Carrello:active::after {
+    content: "Aggiunto al Carrello";          
+        }
+        .pulsante-Aggiungi-al-Carrello:active span{
+    display: none;    
+        }
+        
+    
+        .pulsante-Segnati {
+    background-color: rgb(65, 175, 100);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.15s;
+        }
+        .pulsante-Segnati span {
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+        }
+        .pulsante-Segnati:hover {    
+    width: 110px;
+        }   
+        .pulsante-Segnati:hover span::after {
+    content: "!!!!";       
+        }
+        .pulsante-Segnati:active {
+            background-color: RGB(47, 128, 73);
+        }
+        
+        .pulsante-Inizia {
+    background-color: rgb(125, 80, 175);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    width: 75px;
+    height: 35px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    transition: 0.20s;
+        }
+        .pulsante-Inizia:hover { 
+    width: 80px;
+    height: 35px;          
+    box-shadow: 10px 5px 7px rgba(0, 0, 0, 0.3);        
+        }
+        .pulsante-Inizia:active {
+    background-color: rgb(125, 80, 175);
+    filter: brightness(95%);
+    box-shadow: none;
+        }
+    
+        .pulsante-installa {
+    background-color: rgb(245, 245, 245);
+    color: rgb(108, 110, 125);
+    font-size: 15px;
+    border: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color:rgb(110, 110, 110);
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+        }
+        .pulsante-installa:hover {
+    opacity: 0.7;
+        }
+        .pulsante-installa:active {
+    background-color: rgb(108, 110, 125); 
+    color: rgb(245, 245, 245);        
+        }
+    
+        .pulsante-Applica-al-sito {
+    background-color: rgb(10, 115, 205);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 80px;
+    width: 290px;
+    height: 46px;
+    cursor: pointer;
+    margin-right: 20px;
+        }
+        .pulsante-Applica-al-sito:hover {
+    background-color: rgb(8, 92, 164);         
+        }
+        .pulsante-Applica-al-sito:active {
+    background-color: rgb(6, 74, 131);        
+        }
+    
+        .pulsante-Salva {
+    background-color: white;
+    color: rgb(81, 138, 196);
+    font-size: 20px;
+    border-color: rgb(39, 100, 161);
+    border: solid;
+    border-radius: 100px;
+    border-width: 2px;
+    width: 110px;
+    height: 46px;
+    cursor: pointer;
+    transition: background-color 0.10s, color 0.10s;
+        }
+        .pulsante-Salva:hover {
+    background-color: rgba(0, 90, 220, 0.1);
+    border-width: 3px;
+        }
+        .pulsante-Salva:active {
+    background-color: rgb(39, 100, 161);
+    border-width: 0px;
+    color: white;
+        }
