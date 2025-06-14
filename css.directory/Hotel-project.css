@@ -44,7 +44,7 @@ span {
     left: 0;
     width: 100%;
     background: white;
-    z-index: 1000;
+    z-index: 10000;
     /* per stare sopra altri elementi */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -56,27 +56,36 @@ span {
 }
 
 .Cards-container {
-    max-width: 1000px;
+    max-width: 2000px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .Price-card {
     width: 250px;
-    height: 180px;
+    height: 200px;
     background-color: #ffffff;
     border-width: 2px;
     border-style: solid;
     border-color: rgba(99, 200, 227, 0.768);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    ;
     border-radius: 20px;
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+} 
+
+.Packs-cards {
+    position: relative;
+    left: 255px;
+    display: flex; 
+    flex-direction: row;
+    gap: 60px;
 }
 
 span {
@@ -92,7 +101,7 @@ a button {
     border: none;
     border-radius: 5px;
     padding: 2px 10px;
-    margin-top: 24px;
+    margin-top: 30px;
 }
 a button:hover {
     filter: brightness(75%);
@@ -109,6 +118,23 @@ a button:hover {
     height: 32px;
 }
 
+.Page-end {
+    display: flex;
+}
+
+.nav-footer {
+    display: flex;
+    flex: 1;
+}
+
+.Social-links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;   
+    gap: 10px; 
+    margin: 10px;            
+}
 
 .Assist-numbers {
     line-height: 20px;
@@ -118,14 +144,14 @@ a button:hover {
 .X-logo {
     width: 25px;
     border-radius: 100px;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     cursor: pointer;
 }
 
 .FB-logo {
     width: 25px;
-    margin-left: 17px;
-    margin-right: 17px;
+    /*margin-left: 17px;    
+    margin-right: 17px;*/
     cursor: pointer;
 }
 
