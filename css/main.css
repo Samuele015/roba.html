@@ -19,6 +19,10 @@ header {
     text-align: center;
 }
 
+section {
+    padding: 80px 0;
+}
+
 :root {
 
     --background-color: #f0f0f0;
@@ -54,7 +58,7 @@ span {
 }
 
 .Titolo {
-    padding-top: 50px;
+    font-size: 30px;
 }
 
 nav {
@@ -132,19 +136,17 @@ button:hover {
 
 .Collabors-container {
     display: flex;
-    max-width: 1200px;
     justify-content: space-between;
     gap: 40px;
     margin: 40px;
     padding: 20px;
-    max-height: 700px;
-    width: 100%;
+    max-width: 1200px;
     align-items: center;
     justify-content: center;
 }
 
 .Collabors-list {
-    max-width: 300px;
+    max-width: 50%;
     flex: 1;
 
 }
