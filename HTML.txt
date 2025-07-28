@@ -1,0 +1,37 @@
+package javapack0;
+import java.util.Scanner;
+
+public class javaprogetto0 {
+
+	public static void main(String[] args) {
+		try(Scanner scanner= new Scanner(System.in)) {
+	
+			String nome;
+		
+		while(true) {
+		System.out.println("inserisci il tuo nome. ");
+		nome= scanner.nextLine().trim();
+		if(!nome.isEmpty() && nome.matches("^\\s*[a-zA-ZÀ-ÿ]+( [a-zA-ZÀ-ÿ]+)*$*")) {
+			break;
+		} else {
+			
+	    System.out.println("Errore: Il nome non può contenere numeri, caratteri speciali o essere vuoto.");
+	    System.out.println();
+    }
+}
+       int età=0;
+    		   while(true) {
+    			   System.out.print("Inserisci la tua età");
+    			   if(scanner.hasNextInt()) {
+    				   età = scanner.nextInt();
+    				   scanner.nextLine();
+    			   } else {
+    				   System.out.println("l'età può essere solo un numero intero: lettre e seimboli non ammessi. "); 
+    				   System.out.println();
+    } 
+    			   System.out.println("ciao! " + nome + " hai " + età +" anni.");
+}   		   
+		
+		}
+	}
+}

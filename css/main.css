@@ -103,14 +103,6 @@ nav {
     transition: 0.15s;
 }
 
-.Name-hotel {
-    margin-top: 100px;
-    margin-bottom: 120px;
-    padding-bottom: 120px;
-    align-items: center;
-    justify-self: centers;
-}
-
 nav button {
     width: 100px;
     height: 40px;
@@ -129,6 +121,44 @@ button:hover {
 .Button-primary {
     background: none;
     border: #49532e 1px solid;
+}
+
+.Collabors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Collabors-container {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 40px;
+    padding: 20px;
+    max-height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Collabors-list {
+    max-width: 300px;
+    flex: 1;
+
+}
+
+.Collabors-images {
+    max-width: 300px;
+    flex: 1;
+
+}
+
+.Collabors-images img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .Cards-container {
