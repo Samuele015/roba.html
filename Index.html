@@ -26,7 +26,8 @@
             </div>
 
             <ul>
-                <li><a href="./html/About-us.html">About us</a></li>
+                <!-- <li><a href="./html/About-us.html">About us</a></li> -->
+                <li><a href="#Home">Home</a></li>
                 <li><a href="#collaboratori">Collaboratori</a></li>
                 <li><a href="#servizi">Servizi</a></li>
                 <li><a href="#prezzi">Prezzi</a></li>
@@ -37,21 +38,22 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="Home">
             <div class="hero-backdrop"></div>
             <div class="hero-content">
-                <h1 class="Name-hotel">HOTEL POMELIA<h1>
-                        <p>Esperienza di Relax e Natura in Sicilia</p>
+                <div class="Name-hotel">
+                    <h1>HOTEL POMELIA<h1>
+                            <p>Esperienza di Relax e Natura in Sicilia</p>
+                </div>
             </div>
         </section>
 
         <section class="Collabors" id="collaboratori">
-            <h2 class="Titolo" >Collaboratori</h2>
-            <p style="font-size: 22px;"><strong>
-                    Abbiamo ricercato diversi contatti con aziende esterne che operano in maniera rispettosa nei
-                    confronti
-                    dell'ambiente
-            </p></strong>
+            <span class="Titolo">Collaboratori</span>
+            <p>
+                Abbiamo ricercato diversi contatti con aziende esterne che operino in maniera rispettosa nei
+                confronti dell'ambiente
+            </p>
             <div class="Collabors-container">
 
 
@@ -81,242 +83,108 @@
                 </div>
 
                 <div class="Collabors-images">
-                    <img src="img/Negozi-Ragusa.jpg">
+                    <img src="img/Fattoria-Ragusa.jpg">
+                    <img src="img/Manifattura-Ragusa.jpeg">
+                    <img src="img/Strada-Ragusa.jpg">
                 </div>
             </div>
-            <!-- <p>
-                Speriamo che mettendo in risalto queste piccole imprese possa incentivare a l'uso ed il consumo di
-                prodotti biologici e Km 0
-            </p> -->
         </section>
 
-        <section class="Service-list" id="servizi">
-            <div class="Tourist-service">
-                <h2 class="Titolo" >Servizi</h2>
-                <p>Usufruite di questi servizi per divertirsi e conoscere questa pittoresca città incastonata nel
-                    passato</p>
-
-                <h3>Turismo</h3>
-                <p>
-                    <strong>Escursione turistica di Ragusa Ibla</strong>
-                    <br>con pasto in ristorante a buffet incluso (notificazione di eventuali allergie ed intolleranze
-                    almeno per il giorno prima)
-                </p>
-                <br>La visita include:
-                <ul>
-                    <li>
-                        <p>Cattedrale di San Giorgio</p>
-                    </li>
-                    <li>
-                        <p>Chiesa di Santa Maria delle Scale</p>
-                    </li>
-                    <li>
-                        <p>Chiesa di San Giuseppe</p>
-                    </li>
-                    <li>
-                        <p>Porta Lucifera</p>
-                    </li>
-                    <li>
-                        <p>Museo Ibleo</p>
-                    </li>
-                    <li>
-                        <p>Giardino Ibleo</p>
-                    </li>
-                    <li>
-                        <p>vicoli storici</p>
-                    </li>
-                </ul>
-                Prezzo:<strong> 35.00€/persona</strong>
-                <p>
-                    <strong>Escursione turistica di Ragusa superiore</strong>
-                    <br>con pasto in ristorante a buffet incluso (notificazione di eventuali allergie ed intolleranze
-                    almeno per il giorno prima)
-                </p>
-                <br>La visita include:
-                <ul>
-                    <li>
-                        <p>Cattedrale di San Giovanni Battista</p>
-                    </li>
-                    <li>
-                        <p>Chiesa delle Santissime Anime del Purgatorio</p>
-                    </li>
-                    <li>
-                        <p>Chiesa del Collegio di Maria Addolorata</p>
-                    </li>
-                    <li>
-                        <p>Chiesa del Carmine</p>
-                    </li>
-                    <li>
-                        <p>Chiesa di San Francesco all'Immacolata</p>
-                    </li>
-                    <li>
-                        <p>Museo Archeologico Ibleo</p>
-                    </li>
-                    <li>
-                        <p>Ponti storici</p>
-                    </li>
-                    <li>
-                        <p>Palazzi storici</p>
-                    </li>
-                </ul>
-
-                Prezzo:<strong> 32.00€/persona</strong>
+        <section class="Services" id="servizi">
+            <div class="Service-text">
+                <span class="Titolo">Servizi</span>
+                <p>Usufruite di questi servizi per divertirsi e conoscere questa pittoresca città incastonata
+                    nel passato</p>
             </div>
+            <div class="Service-list">
 
-            <div class="SPA-service"><!--Lista di servizi all'interno dell'hotel-->
-
-                <h3>Servizi SPA</h3>
-
-                <h4>Massaggi</h4>
-                <ul>
-                    <li>
-                        <p>Massaggio al Viso -13.00€/ora</p>
-                    </li>
-                    <li>
-                        <p>Massaggio Svedese -15.00€/ora</p>
-                    </li>
-                    <li>
-                        <p>Massaggio Shiatsu -20.00€/ora</p>
-                    </li>
-                    <li>
-                        <p>Massaggio con Pietre Calde -22.00€/ora</p>
-                    </li>
-                    <li>
-                        <p>Massaggio Aromaterapeutico -25.00€/ora</p>
-                    </li>
-                </ul>
-                <p><em>*È consigliata la prenotazione anticipata presso la reception.</em></p>
-                <p><em>*Il centro massaggi è aperto dalle ore 10:00 alle ore 21:30</em></p>
-
-                <h4>Saune 18.00€/persona</h4>
-                <ul>
-                    <li>
-                        <p>Bagno Turco (a 40°C)</p>
-                    </li>
-                    <li>
-                        <p>Biosauna (a 60°C)</p>
-                    </li>
-                    <li>
-                        <p>Finlandese (da 80°C a 100°C)</p>
-                    </li>
-                </ul>
-                <p><em>*si prega di indossare un costume da bagno o un asciugamano durante l'uso sauna</em></p>
-                <p><em>*le saune sono aperte dalle ore 9:00 alle ore 22:30</em></p>
-
-
-                <strong>Attenzione!</strong>
-                <p>-L'accesso alla SPA è vietato ai minori di 18 anni.</p>
-                <p>-Le donne in gravidanza e soggetti con patologie sono invitati a consultare il proprio medico prima
-                    di utilizzare i servizi.</p>
-                <p>-Si prega di informare lo staff in caso di condizioni particolari.</p>
-            </div>
-
-            <div class="Outdoor-service"><!--Lista di servizi all'esterno dell'hotel-->
-
-                <h3>Attività all'aperto</h3>
-                <p>L'hotel Pomelia offre attività agrituristiche all'aperto, grazie anche alla collaborazione di piccole
-                    realtà che mettono a disposizione le loro terre</p>
-
-                <h4>Raccolta delle Mandorle (fine Luglio-Agosto)</h4>
-                <p>-Partecipate alla raccolte annuale delle mandorle con inclusa una panoramica degli usi tradizionali
-                </p>
-                <p>-3 ettari di mandorleto appartenenti ad una piccola impresa agricola locale</p>
-                <p>-a fine giornata potrete portarvi a casa delle mandorle fresche e altri prodotti derivati,
-                    direttamente acquistabili dal mercato agricolo.</p>
-                <p><strong>10.00€/persona</strong></p>
-                <p><em>*Durata attività 2 ore</em>- gli autobus partiranno alle 12:30 nel piazzale dell'hotel alla data
-                    prevista</p>
-
-                <h4>Trekking tra le colline di Ragusa</h4>
-                <p>-Escursione con guida, alla scoperta dei sentieri nascosti di Ragusa</p>
-                <p>-Pic-Nic tra le montagne in area designata</p>
-                <p><strong>18.00€/persona</strong></p>
-                <p><em>*Durata attività 3 ore</em>- raccogliersi alla reception alla data indicata per l'incontro con la
-                    guida entro le 13:00</p>
-
-                <h4>Percorso ciclistico</h4>
-                <p>-Visita i dintorni dell'hotel in bicicletta</p>
-                <p>-Percorso di 12Km adatto a qualsiasi livello di esperienza</p>
-                <p>-Presenza di tutor per chi è meno pratico</p>
-                <p>-Rinfresco con limonata ed altri sfizi tipici</p>
-                <p><strong>12.00€/persona (bici inclusa) . I minori di 13 anni pagano 8.00€</strong></p>
-            </div>
-
-            <div class="Indoor-service">
-                <h3>Attività interne</h3>
-                <p>Ricercate tranquillità tra le mura dell'albergo</p>
-
-                <h4>Degustazioni</h4>
-                <p>-Di formaggi accompagnati da vini, confetture e frutta di stagione</p>
-                <p>-Di vini artigianali con pasto abbinato</p>
-                <p><strong>8.00€/persona</strong></p>
-                <p>-L'enoteca interna all'albergo è disponibile alle ore 21:00</p>
-                <p><em>*I minori di 18 anni è vietato l'ingresso</em></p>
-
-                <h4>Laboratorio di Ceramiche</h4>
-                <br>-Cimentati nel creare un ricordo con le tue mani!
-                <p>-Illustrazione delle tipiche ceramiche Ragusane</p>
-                <p><strong>25.00€/persona . I minori di 13 anni pagano 12.00€</strong></p>
-            </div>
-        </section><!--Fine lista attività-->
-
-        <section class="Romms-prices" id="prezzi">
-            <h2 class="Titolo">Prezzi</h2>
-            <p>
-                <strong>Prezzario stanze e pacchetti (i prezzi potrebbero variare in base al periodo dell'anno)</strong>
-            </p>
-
-            <div class="Cards-container">
-
-                <div class="Price-card">
-                    <span>Camera singola:</span>
-                    <br>25.00€/notte con pensione completa
-                    <br>20.00€/notte con mezza pensione (pranzo o cena)
-                    <a href="#"><button>Prenota</button></a>
-                </div>
-                <div class="Price-card">
-                    <span>Camera doppia:</span>
-                    <br>35.00€/notte con pensione completa
-                    <br>30.00€/notte con mezza pensione (pranzo o cena)
-                    <a href="#"><button>Prenota</button></a>
-                </div>
-                <div class="Price-card">
-                    <span>Camera quadrupla:</span>
-                    <br>40.00€/notte con pensione completa
-                    <br>36.00€/notte con mezza pensione (pranzo o cena)
-                    <a href="#"><button>Prenota</button></a>
-                </div>
-                <div class="Price-card">
-                    <span>Matrimoniale:</span>
-                    <br>35.00€/notte con pensione completa
-                    <br>30.00€/notte con mezza pensione (pranzo o cena)
-                    <a href="#"><button>Prenota</button></a>
-                </div>
-                <div class="Price-card">
-                    <span>Matrimoniale + doppia:</span>
-                    <br>40.00€/notte con pensione completa
-                    <br>36.00€/notte con mezza pensione (pranzo o cena)
-                    <a href="#"><button>Prenota</button></a>
-                </div>
-
-
-                <div class="Packs-cards">
-                    <!--<h3>Pacchetti</h3>-->
-                    <div class="Price-card">
-                        <span>Pacchetto Turistico: su tutte le camere</span>
-                        <br>costo della/e stanza/e + 10% di sconto sulle escursioni turistiche
-                        <a href="#"><button>Prenota</button></a>
+                <div class="Service-container">
+                    <div class="Service-card">
+                        <div class="Service-icon">
+                            <img src="img/Turism.icon.jpg" alt="">
+                        </div>
+                        <span>Turismo</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sint!</p>
                     </div>
-                    <div class="Price-card">
-                        <span>Pacchetto Sposi: Matrimoniale</span>
-                        <br>32.00€/notte solo pensione completa + 15% di sconto sulle attività SPA
-                        <a href="#"><button>Prenota</button></a>
+
+                    <div class="Service-card">
+                        <div class="Service-icon">
+                            <img src="img/SPA-icon.jpg" alt="">
+                        </div>
+                        <span>Servizi SPA</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sint!</p>
                     </div>
-                    <div class="Price-card">
-                        <span>Pacchetto Famiglia: Matrimoniale + Doppia </span>
-                        <br>37.00€/notte solo pensione completa + 15% di sconto sulle attività esterne e turistiche
-                        <a href="#"><button>Prenota</button></a>
+
+                    <div class="Service-card">
+                        <div class="Service-icon">
+                            <img src="img/External-activites.jpg" alt="">
+                        </div>
+                        <span>Attività all'aperto</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sint!</p>
                     </div>
+
+                    <div class="Service-card">
+                        <div class="Service-icon">
+                            <img src="img/Internal-activites.jpg" alt="">
+                        </div>
+                        <span>Attività interne</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sint!</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="Price" id="prezzi">
+            <div class="Lining">
+                <div class="Price-text">
+                    <span class="Titolo">Prezzi</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.
+                    </p>
+                </div>
+
+                <div class="Price-container">
+                    <div class="Price-card">
+                        <span>Turist</span>
+                        <div><span class="Price-pack">&euro;25.50</span> <span class="Price-period">a notte</span></div>
+                        <p>Per esploratori, in singolo o con amici</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <button class="Price-button">Prenota ora</button>
+                    </div>
+
+                    <div class="Price-card">
+                        <span>Family</span>
+                        <div><span class="Price-pack">&euro;51.00</span> <span class="Price-period">a notte</span></div>
+                        <p>Per intrattenere e divertire grandi e piccini</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <button class="Price-button">Prenota ora</button>
+                    </div>
+
+                    <div class="Price-card">
+                        <span>Couple</span>
+                        <div><span class="Price-pack">&euro;100.00</span> <span class="Price-period">a notte</span>
+                        </div>
+                        <p>Per coppie che vogliono godersi una avventura romantica</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <button class="Price-button">Prenota ora</button>
+                    </div>
+
+                </div>
+
+                <div class="Price-container banner">
+                    Scopri gli altri prezzi
                 </div>
             </div>
         </section>
@@ -332,10 +200,11 @@
 
                     <div class="nav-footer">
                         <ul>
+                            <li><a href="#Home">Home</a></li>
                             <li><a href="#collaboratori">Collaboratori</a></li>
                             <li><a href="#prezzi">Prezzi</a></li>
                             <li><a href="#servizi">Servizi</a></li>
-                            <li><a href="#contattaci">Contattaci</a></li>
+                            <li><a href="#contattaci">Contacts</a></li>
                         </ul>
                     </div>
 

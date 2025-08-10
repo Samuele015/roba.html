@@ -11,6 +11,7 @@ html {
 body {
     line-height: 1.6;
     overflow-x: hidden;
+    background-color: whitesmoke;
 }
 
 header {
@@ -21,6 +22,17 @@ header {
 
 section {
     padding: 80px 0;
+}
+
+span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #808080;
 }
 
 :root {
@@ -51,10 +63,6 @@ h2 {
 
 h2 {
     text-align: center;
-}
-
-span {
-    cursor: pointer;
 }
 
 .Titolo {
@@ -118,7 +126,7 @@ nav button {
 
 button:hover {
     transition: 2.8ms;
-    background-color: #e1ff90;
+    background-color: #90ff94;
     color: #49532e;
 }
 
@@ -148,83 +156,137 @@ button:hover {
 .Collabors-list {
     max-width: 50%;
     flex: 1;
-
 }
 
 .Collabors-images {
     max-width: 300px;
     flex: 1;
-
 }
 
 .Collabors-images img {
-    display: block;
-    width: 100%;
+    width: 200px;
+    height: 200px;
     height: auto;
 }
 
-.Cards-container {
-    max-width: 2000px;
+.Services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.Service-text {
+    padding-bottom: 40px;
+}
+
+.Service-list {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Service-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.Service-icon {
     display: flex;
-    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 25px;
+    border: 3px solid lightgreen;
+    border-radius: 50%;
+    box-shadow:
+        0 8px 32px rgba(76, 175, 80, 0.3),
+        0 4px 16px rgba(76, 175, 80, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.Service-icon img {
+    width: 100%;
+}
+
+
+.Service-card {
+    background: white;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.Price-text {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.Price-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .Price-card {
-    width: 250px;
-    height: 200px;
-    background-color: #ffffff;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgba(99, 200, 227, 0.768);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    padding: 20px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
-    line-height: 20px;
+    flex: 1;
+    height: 445px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    border: 2px lightblue solid;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
 }
 
-.Packs-cards {
-    position: relative;
-    left: 255px;
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
+.Price-card p {
+    color: #808080;
 }
 
-span {
-    font-size: 1.5em;
-    font-weight: bold;
+.Price-card ul {
+    color: rgb(94, 94, 94);
 }
 
-a button {
-    height: 25px;
-    width: 200px;
-    width: 100%;
-    background-color: #5577f2;
+.Price-pack {
+    font-size: 30px;
+}
+
+.Price-period {
+    font-size: 15px;
+    color: #989898;
+}
+
+.Price-button {
+    background-color: rgb(9, 188, 9);
+    color: white;
+    font-size: 15px;
+    padding: 8px 3px;
     border: none;
-    border-radius: 5px;
-    padding: 2px 10px;
-    margin-top: 30px;
+    border-radius: 50px;
 }
 
-a button:hover {
-    filter: brightness(75%);
+.Lining {
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    justify-content: center;
+    align-items: center;
 }
 
-.Achivments {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 13px;
-}
-
-.Achivments h2 {
-    line-height: normal;
-    height: 32px;
+.banner {
+    width: 1230px;
+    border: 2px lightblue solid;
+    margin: 60px 0;
+    font-size: 21px;
+    color: #3c3c3c;
 }
 
 .Page-end {
